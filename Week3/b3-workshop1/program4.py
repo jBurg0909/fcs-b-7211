@@ -6,5 +6,8 @@ c = -12
 
 product = a*b*c
 average = (a+b+c)/3
-result = product/average
-print(result)
+if average == 0:
+    print("Your Product is undivisble by the average, as the average is 0")
+else:
+    result = product/average
+    print(result)
